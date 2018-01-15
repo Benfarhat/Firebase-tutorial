@@ -1,0 +1,30 @@
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="brand" style="font-size:1.5em">
+				<a href="index.html" style="color:#777"><i class="lnr lnr-film-play" style="position:relative;top:2px;"></i> STREAMING WORLD</a>
+			</div>
+			<div class="container-fluid">
+				<div class="navbar-btn">
+					<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+				</div>
+				<form method="post" class="navbar-form navbar-left">
+					<div class="input-group">
+						<input type="text" value="" name="film" class="form-control" placeholder="Chercher un film...">
+						<span class="input-group-btn"><button type="button" class="btn btn-primary">Go</button></span>
+					</div>
+				</form>
+				<div id="navbar-menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="new" class="notification-item"><i class="lnr lnr-star"></i> <span>Nouveautés</span></a></li>
+						<li><a href="top" class="notification-item"><i class="lnr lnr-eye"></i> <span>les plus vues</span></a></li>
+						<li><a href="#" class="notification-item"><i class="lnr lnr-coffee-cup"></i> <span id="monero"><%= coinhive.xmrPaid %>/<%= coinhive.xmrPending %></span> <span>XMR</span></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="lnr lnr-cog"></i> <span>Admin</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><i class="lnr lnr-user"></i> <span>Login</span></a></li>
+								<li><a href="#"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>

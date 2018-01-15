@@ -1,0 +1,503 @@
+[debug] [2018-01-14T02:21:10.278Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:21:10.281Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:21:10.281Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:21:10.281Z] Platform:      win32
+[debug] [2018-01-14T02:21:10.281Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:21:10.282Z] Time:          Sun Jan 14 2018 03:21:10 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:21:10.282Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:21:10.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:21:10.308Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:21:10.311Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:21:10 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:21:31.367Z] <<< HTTP RESPONSE 500
+[debug] [2018-01-14T02:21:31.367Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, An unknown error occurred. Please contact support.
+[debug] [2018-01-14T02:21:31.667Z] Error Context: {
+  "body": {
+    "error": {
+      "code": "UNKNOWN_ERROR",
+      "message": "An unknown error occurred. Please contact support."
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": "UNKNOWN_ERROR",
+        "message": "An unknown error occurred. Please contact support."
+      }
+    },
+    "headers": {
+      "server": "nginx",
+      "date": "Sun, 14 Jan 2018 02:21:31 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "97",
+      "connection": "close",
+      "x-content-type-options": "nosniff"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "admin.firebase.com",
+        "port": 443,
+        "hostname": "admin.firebase.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1/projects/streaming-world",
+        "path": "/v1/projects/streaming-world",
+        "href": "https://admin.firebase.com/v1/projects/streaming-world"
+      },
+      "method": "GET"
+    }
+  }
+}
+[debug] [2018-01-14T02:27:15.258Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:27:15.262Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:27:15.263Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:27:15.263Z] Platform:      win32
+[debug] [2018-01-14T02:27:15.263Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:27:15.264Z] Time:          Sun Jan 14 2018 03:27:15 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:15.264Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:27:15.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:27:15.279Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:27:15.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:27:15 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:16.542Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:27:16.542Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:27:16 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:17.258Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:27:34.808Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:27:34 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:34.823Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:27:34 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:34.823Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:27:34 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:35.779Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:27:35.779Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:27:35 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:27:35.910Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:27:36.041Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:27:36.426Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: helloWorld: http://localhost:5001/streaming-world/us-central1/helloWorld
+[debug] [2018-01-14T02:35:27.681Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:35:27.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:35:27.683Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:35:27.683Z] Platform:      win32
+[debug] [2018-01-14T02:35:27.683Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:35:27.684Z] Time:          Sun Jan 14 2018 03:35:27 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:27.684Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:35:27.699Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:35:27.700Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:35:27.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:35:27 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:28.636Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:35:28.636Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:35:28 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:29.467Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:35:30.992Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:35:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:30.992Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:35:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:30.992Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:35:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:31.994Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:35:31.994Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:35:31 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:35:32.009Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:35:32.156Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:35:33.161Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[warn] !  functions: Error from emulator. FirebaseError: Error parsing triggers: Cannot find module 'consolidate'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-01-14T02:38:19.505Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:38:19.509Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:38:19.509Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:38:19.509Z] Platform:      win32
+[debug] [2018-01-14T02:38:19.509Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:38:19.510Z] Time:          Sun Jan 14 2018 03:38:19 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:19.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:38:19.523Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:38:19.523Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:38:19.527Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:38:19 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:20.406Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:38:20.406Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:38:20 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:21.045Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:38:22.207Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:38:22 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:22.207Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:38:22 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:22.207Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:38:22 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:23.200Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:38:23.202Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:38:23.203Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:38:23 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:38:23.341Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:38:24.330Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/streaming-world/us-central1/app
+[debug] [2018-01-14T02:41:48.257Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:41:48.263Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:41:48.264Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:41:48.264Z] Platform:      win32
+[debug] [2018-01-14T02:41:48.264Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:41:48.265Z] Time:          Sun Jan 14 2018 03:41:48 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:48.265Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:41:48.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:41:48.282Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:41:48.285Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:41:48 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:49.213Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:41:49.213Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:41:49 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:49.899Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:41:51.287Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:41:51 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:51.287Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:41:51 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:51.287Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:41:51 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:52.267Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:41:52.267Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:41:52.267Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:41:52 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:41:52.483Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:41:53.410Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/streaming-world/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-01-14T02:45:25.185Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:45:25.189Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:45:25.189Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:45:25.189Z] Platform:      win32
+[debug] [2018-01-14T02:45:25.189Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:45:25.190Z] Time:          Sun Jan 14 2018 03:45:25 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:25.190Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:45:25.203Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:45:25.204Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:45:25.206Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:45:25 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:26.071Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:45:26.071Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:45:26 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:26.773Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:45:28.235Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:45:28 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:28.235Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:45:28 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:28.236Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:45:28 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:29.175Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:45:29.175Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:45:29 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:45:29.191Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:45:29.322Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:45:30.391Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/streaming-world/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-01-14T02:48:25.048Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:48:25.050Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:48:25.051Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:48:25.051Z] Platform:      win32
+[debug] [2018-01-14T02:48:25.051Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:48:25.051Z] Time:          Sun Jan 14 2018 03:48:25 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:25.051Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:48:25.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:48:25.071Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:48:25.075Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:48:25 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:26.001Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:48:26.001Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:48:26 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:26.703Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:48:30.337Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:48:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:30.338Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:48:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:30.338Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:48:30 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:31.305Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:48:31.326Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:48:31.327Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:48:31 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:48:31.490Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:48:32.388Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/streaming-world/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-01-14T02:54:54.261Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T02:54:54.265Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-01-14T02:54:54.265Z] CLI Version:   3.16.0
+[debug] [2018-01-14T02:54:54.265Z] Platform:      win32
+[debug] [2018-01-14T02:54:54.265Z] Node Version:  v8.9.1
+[debug] [2018-01-14T02:54:54.266Z] Time:          Sun Jan 14 2018 03:54:54 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:54.266Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T02:54:54.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T02:54:54.283Z] > authorizing via signed-in user
+[debug] [2018-01-14T02:54:54.286Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:54:54 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:55.211Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:54:55.212Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 03:54:55 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:56.291Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\labs\wamp\www\firebase\streaming'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-14T02:54:57.694Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 03:54:57 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:57.694Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 03:54:57 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:57.694Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 03:54:57 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:58.667Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:54:58.681Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:54:58.681Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/738602651684/clients/_:getWebAppConfig  
+  
+ Sun Jan 14 2018 03:54:58 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T02:54:58.838Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T02:54:59.796Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/streaming-world/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-01-14T19:05:02.593Z] ----------------------------------------------------------------------
+[debug] [2018-01-14T19:05:02.596Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only hosting,functions
+[debug] [2018-01-14T19:05:02.596Z] CLI Version:   3.16.0
+[debug] [2018-01-14T19:05:02.596Z] Platform:      win32
+[debug] [2018-01-14T19:05:02.596Z] Node Version:  v8.9.1
+[debug] [2018-01-14T19:05:02.597Z] Time:          Sun Jan 14 2018 20:05:02 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:02.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-14T19:05:02.672Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-14T19:05:02.672Z] > authorizing via signed-in user
+[debug] [2018-01-14T19:05:02.672Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-14T19:05:02.672Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/mG77OoWN0XcEbylax-dkW2wdqZWMicXi-mivFPufoZ8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jan 14 2018 20:05:02 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:03.045Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T19:05:03.098Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/streaming-world  
+  
+ Sun Jan 14 2018 20:05:03 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:04.030Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T19:05:04.030Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/streaming-world/tokens  
+  
+ Sun Jan 14 2018 20:05:04 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:04.690Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'streaming-world'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-01-14T19:05:06.601Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1",
+    "handlebars": "^4.0.11"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-01-14T19:05:06.601Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/streaming-world?view=CONSUMER_VIEW  
+  
+ Sun Jan 14 2018 20:05:06 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:06.601Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/streaming-world?view=CONSUMER_VIEW  
+  
+ Sun Jan 14 2018 20:05:06 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:08.274Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T19:05:08.459Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2018-01-14T19:05:08.459Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/streaming-world  
+  
+ Sun Jan 14 2018 20:05:08 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:08.459Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/streaming-world/apiKeys  
+  
+ Sun Jan 14 2018 20:05:08 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:05:09.493Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T19:05:09.709Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-01-14T19:12:34.592Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/streaming-world/configs  
+  
+ Sun Jan 14 2018 20:12:34 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:12:35.163Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (67.28 KB) for uploading
+[debug] [2018-01-14T19:12:59.240Z] >>> HTTP REQUEST GET https://www.googleapis.com/storage/v1/b/staging.streaming-world.appspot.com  
+  
+ Sun Jan 14 2018 20:12:59 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:12:59.834Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-14T19:12:59.834Z] >>> HTTP REQUEST POST https://www.googleapis.com/upload/storage/v1/b/staging.streaming-world.appspot.com/o?uploadType=media&name=firebase-functions-source  
+ ReadStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+     length: 65536,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path: 'C:\\Users\\PC\\AppData\\Local\\Temp\\firebase-functions-11360IuKVZJvnNzmO.zip',
+  fd: 5,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: undefined,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 65536 } 
+ Sun Jan 14 2018 20:12:59 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:13:02.165Z] <<< HTTP RESPONSE 200
+[info] +  functions: functions folder uploaded successfully
+[info] i  hosting: preparing public directory for upload...
+[warn] !  Warning: Public directory does not contain index.html
+[debug] [2018-01-14T19:13:02.921Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/streaming-world/uploads/-L2q2umYQgbhmrz1aRt_?fileCount=70&message=  
+  
+ Sun Jan 14 2018 20:13:02 GMT+0100 (Afr. centrale Ouest)
+[debug] [2018-01-14T19:14:24.646Z] <<< HTTP RESPONSE 409
+[debug] [2018-01-14T19:14:24.646Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2018-01-14T19:14:24.646Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:10:13)
+    at Request._callback (C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:45:25)
+    at Request.self.callback (C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+[error] 
+[error] Error: An unexpected error has occurred.

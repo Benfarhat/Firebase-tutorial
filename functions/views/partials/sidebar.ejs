@@ -1,0 +1,12 @@
+		<div id="sidebar-nav" class="sidebar">
+			<div class="sidebar-scroll">
+				<nav>
+					<ul class="nav">
+						<li><a href="index.html" class="active"><i class="lnr lnr-home"></i> <span>Genres</span></a></li>
+					    <% genres.forEach(function(genre) { %>
+					    <li><a href="<%= genre.link %>.html" class=""><span><%= genre.name %></span></a></li>
+					    <% }); %>
+					</ul>
+				</nav>
+			</div>
+		</div>
